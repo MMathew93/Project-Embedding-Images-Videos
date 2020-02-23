@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+#header {
+    background-color: blue;
+    border: 5px solid pink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width:100%;
+    height:56px;
+    margin: auto;
+}
+
+.searchContainer {
+    background-color: black;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#searchInput {
+    width: 100%;
+}
+
+#primaryWatch {
+    background-color: green;
+    border: 5px solid white;
+    float: left;
+    width: 63%;
+    height:1000px;
+    margin-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+#mainVideo {
+    background-color: yellow;
+    width: 100%;
+    height:750px;
+}
+
+.videoInfo {
+    background-color: purple;
+    width: 100%;
+    height:100px;
+}
+
+#secondaryWatch {
+    background-color: red;
+    border: 5px solid purple;
+    float:right;
+    width: 30%;
+    height:1000px;
+    margin-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+}
