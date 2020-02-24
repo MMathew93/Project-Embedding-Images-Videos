@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">>
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>YouTube</title>
+        <script src="https://kit.fontawesome.com/74ee1387d7.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <div id= "header">
+            <div class= "hamburger">
+                <i class="fas fa-bars fa-lg" style="margin-top: 5px;padding-right: 25px; color: gray;"></i>
+            </div>
             <div class= "searchContainer">
                 <div id= "searchInput">
                     <input type= "text" placeholder= "Search..." name= "search">
                 </div>
-                <button id= "searchIcon">???</button>
+                <button id= "searchIcon">
+                    <i class="fa fa-search" aria-hidden="true" ></i>
+                </button>
             </div>
-
+            <li class= "nav-items">
+                <div class= "nav-buttonContainer">
+                    <div class= "postButton">
+                            <i class="fas fa-video fa-lg" style="margin-top: 5px;padding-right: 25px; color: gray;"></i>
+                    </div>
+                    <div class= "appsButton">
+                            <i class="fas fa-th fa-lg" style="margin-top: 5px;padding-right: 25px; color: gray;"></i>
+                    </div>
+                    <div class= "notification">
+                            <i class="fas fa-bell fa-lg" style="margin-top: 5px;padding-right: 25px; color: gray;"></i>
+                    </div>
+                    <div class= "signIn">
+                        <button id= "circle"></button>
+                        <div id= "letter">M</div>
+                    </div>
+                </div>
+            </li>
         </div>
         <div id= "primaryWatch">
-            <div id= "mainVideo"></div>
+            <div id= "mainVideo"><iframe width="1280" height="720" src="https://www.youtube.com/embed/1OA7kFpmPeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <div class= "videoInfo"></div>
             <div id= "commentsSection"></div>
         </div>
